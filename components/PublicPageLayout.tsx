@@ -1,13 +1,9 @@
 import type { ReactNode } from 'react';
 import { HomeLayout } from 'fumadocs-ui/home-layout';
-import { baseOptions } from '../layout.config';
-import NavScrollBehavior from '@/components/NavScrollBehavior';
+import { baseOptions } from '@/app/layout.config';
+import NavScrollBehavior from './NavScrollBehavior';
 
-export default function Layout({
-  children,
-}: {
-  children: ReactNode;
-}): React.ReactElement {
+export default function PublicPageLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <NavScrollBehavior />
