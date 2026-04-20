@@ -46,9 +46,9 @@ const platforms = [
 
 export default function Downloads() {
   return (
-    <main className="min-h-screen bg-background px-4 pt-28 pb-16 text-foreground sm:px-6 lg:px-8">
+    <main className="bg-background px-4 pt-24 pb-12 text-foreground sm:px-6 lg:px-8">
       <section className="mx-auto max-w-6xl">
-        <div className="mb-14 max-w-3xl">
+        <div className="mb-10 max-w-3xl">
           <div className="mb-5 inline-flex rounded-md border border-border bg-muted/50 px-4 py-1.5 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
             Downloads
           </div>
@@ -66,7 +66,7 @@ export default function Downloads() {
           ))}
         </div>
 
-        <div className="mt-16 rounded-xl border border-border bg-muted/50 p-6 sm:p-8">
+        <div className="mt-10 rounded-xl border border-border bg-muted/50 p-5 sm:p-6">
           <LatestReleaseNotes />
         </div>
       </section>

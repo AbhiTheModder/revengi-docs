@@ -47,7 +47,7 @@ export default function HomePage() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 flex flex-col items-center px-4 pt-24 pb-16 sm:px-6 lg:pt-32"
+        className="relative z-10 flex flex-col items-center px-4 pt-24 pb-10 sm:px-6 lg:pt-28"
       >
         <motion.div variants={itemVariants} className="mb-6">
           <span className="rounded-md border border-border bg-muted/50 px-4 py-1.5 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground backdrop-blur-md">
@@ -76,7 +76,7 @@ export default function HomePage() {
           at your fingertips.
         </motion.p>
 
-        <motion.div variants={itemVariants} className="mt-12 flex flex-col items-center gap-4 sm:flex-row">
+        <motion.div variants={itemVariants} className="mt-8 flex flex-col items-center gap-4 sm:flex-row lg:mt-10">
           <Button
             asChild
             className="h-14 rounded-md border border-border bg-foreground px-8 text-lg font-semibold text-background hover:bg-foreground/90"
@@ -101,7 +101,7 @@ export default function HomePage() {
           </div>
         </motion.div>
 
-        <div className="mt-32 grid w-full max-w-6xl grid-cols-1 gap-6 md:grid-cols-12 md:grid-rows-2">
+        <div className="mt-16 grid w-full max-w-6xl grid-cols-1 gap-6 md:grid-cols-12 md:grid-rows-2 lg:mt-24">
           <motion.div
             variants={itemVariants}
             className="group relative md:col-span-8 md:row-span-1"
@@ -191,7 +191,7 @@ export default function HomePage() {
           </motion.div>
         </div>
 
-        <motion.section variants={itemVariants} className="mt-40 w-full overflow-hidden">
+        <motion.section variants={itemVariants} className="mt-20 w-full overflow-hidden lg:mt-28">
           <div className="mb-12 text-center">
             <h2 className="text-3xl font-bold sm:text-5xl">Community Voice</h2>
             <p className="mt-4 text-muted-foreground">Trusted by thousands of researchers worldwide.</p>
@@ -213,8 +213,8 @@ export default function HomePage() {
           </div>
         </motion.section>
 
-        <motion.section variants={itemVariants} className="mt-40 w-full max-w-5xl">
-          <div className="mb-16 text-center">
+        <motion.section variants={itemVariants} className="mt-20 w-full max-w-5xl lg:mt-28">
+          <div className="mb-10 text-center">
             <h2 className="text-3xl font-bold sm:text-5xl">Our Backers</h2>
             <p className="mt-4 text-muted-foreground">Powering the future of open-source reverse engineering.</p>
           </div>

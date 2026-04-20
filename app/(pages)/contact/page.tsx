@@ -34,9 +34,9 @@ const contactCards = [
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-background px-4 pt-28 pb-16 text-foreground sm:px-6 lg:px-8">
+    <main className="bg-background px-4 pt-24 pb-12 text-foreground sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <section className="mb-14 max-w-3xl">
+        <section className="mb-10 max-w-3xl">
           <div className="mb-5 inline-flex rounded-md border border-border bg-muted/50 px-4 py-1.5 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
             Contact
           </div>
@@ -52,7 +52,7 @@ export default function ContactPage() {
           ))}
         </section>
 
-        <section className="mt-14 rounded-xl border border-border bg-muted/50 p-6 sm:p-8">
+        <section className="mt-10 rounded-xl border border-border bg-muted/50 p-6 sm:p-8">
           <h2 className="text-2xl font-semibold text-foreground">API support</h2>
           <p className="mt-4 max-w-3xl text-sm leading-7 text-muted-foreground sm:text-base">
             For API-specific questions, email{' '}

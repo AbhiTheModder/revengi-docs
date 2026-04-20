@@ -36,7 +36,7 @@ function InlineLink({ href, children }: { href: string; children: React.ReactNod
 
 export default function PrivacyPolicyPage() {
   return (
-    <main className="min-h-screen bg-background px-4 pt-28 pb-16 text-foreground sm:px-6 lg:px-8">
+    <main className="bg-background px-4 pt-24 pb-12 text-foreground sm:px-6 lg:px-8">
       <div className="mx-auto max-w-5xl">
         <div className="mb-12 max-w-3xl">
           <div className="mb-5 inline-flex rounded-md border border-border bg-muted/50 px-4 py-1.5 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">

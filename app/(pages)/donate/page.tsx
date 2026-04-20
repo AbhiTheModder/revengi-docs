@@ -49,9 +49,9 @@ function CodeBlock({ children }: { children: string }) {
 
 export default function DonatePage() {
   return (
-    <main className="min-h-screen bg-background px-4 pt-28 pb-16 text-foreground sm:px-6 lg:px-8">
+    <main className="bg-background px-4 pt-24 pb-12 text-foreground sm:px-6 lg:px-8">
       <div className="mx-auto max-w-6xl">
-        <section className="mb-14 max-w-4xl">
+        <section className="mb-10 max-w-4xl">
           <div className="mb-5 inline-flex rounded-md border border-border bg-muted/50 px-4 py-1.5 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground">
             Support RevEngi
           </div>
@@ -65,7 +65,7 @@ export default function DonatePage() {
           </p>
         </section>
 
-        <section className="mb-14 grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
+        <section className="mb-10 grid gap-6 lg:grid-cols-[1.15fr_0.85fr]">
           <div className="rounded-xl border border-border bg-muted/50 p-6 sm:p-8">
             <h2 className="mb-4 text-2xl font-semibold">Why donate</h2>
             <div className="space-y-4 text-sm leading-7 text-muted-foreground sm:text-base">
@@ -86,7 +86,7 @@ export default function DonatePage() {
           </div>
         </section>
 
-        <section className="mb-14" id="payment-methods">
+        <section className="mb-10" id="payment-methods">
           <div className="mb-8">
             <h2 className="text-2xl font-semibold sm:text-3xl">Payment methods</h2>
             <p className="mt-3 text-sm text-muted-foreground sm:text-base">
