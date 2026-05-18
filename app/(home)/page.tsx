@@ -331,7 +331,7 @@ export default function HomePage() {
             <p className="mt-3 text-muted-foreground">Powering the future of open-source reverse engineering.</p>
           </motion.div>
 
-          <div className="grid grid-cols-2 gap-px overflow-hidden border border-border bg-border sm:grid-cols-3 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-px overflow-hidden border border-border bg-border sm:grid-cols-3">
             {sponsors.map((sponsor: Sponsor, index: number) => (
               <motion.div
                 key={`${sponsor.name}-${index}`}
